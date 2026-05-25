@@ -1,30 +1,36 @@
-# Calculator CLI
+# RPG Tavern
 
 ## Description
-**calculator-cli** is a simple calculator to calculate two numbers. This project is educational and serves me to learn about the basics of Rust.
+**rpg-tavern-website** is a website representing a fictional restaurant. This project is purely educational and is used to practice web development skills.
 
-## Table of contents
+> 🚧 This project is currently a work in progress.
+
+## Contents
 - [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Licence](#Licence)
 
 ## Features
-- [ ] Add two numbers
-- [ ] Subtract two numbers
-- [ ] Multiply two numbers
-- [ ] Divide two numbers only if the divider is not equal to zero
+### General
+- [ ] Display dishes (description, ingredients and price)
+- [ ] Pixel Art theme
 
-## Requirements
+### Sections
+- [ ] Home
+- [ ] Menu
+- [ ] About
 
 ## Installation
-Clone the repository:
+In the terminal:
 ```bash
-git https://github.com/nateyang7/calculator-cli
+git clone https://github.com/nateyang7/rpg-tavern-website.git
 ```
 
 ## Usage
-In the repository, execute:
-```rust
-cargo run
+Run:
+```bash
+npm run dev
 ```
 
 ## Licence
-MIT
