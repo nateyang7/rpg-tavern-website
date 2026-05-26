@@ -1,11 +1,6 @@
 // src/components/Course.tsx
 
-interface Item {
-  name: string;
-  path: string;
-  description: string;
-  price: number;
-}
+import type { Item } from "../data/item.ts";
 
 export default function Course(item: Item) {
   return (
