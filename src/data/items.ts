@@ -8,6 +8,7 @@ import charcuterieImg from "../assets/items/charcuterie.jpg";
 
 import steakImg from "../assets/items/steak.jpg";
 import roastChickenImg from "../assets/items/roast_chicken.jpg";
+import fishSteakImg from "../assets/items/fish_steak.jpg";
 
 import cakeImg from "../assets/items/cake.jpg";
 
@@ -48,6 +49,12 @@ export const mainCourses: Item[] = [
     path: roastChickenImg,
     description: "A roast chicken taken from the farm.",
     price: 55,
+  },
+  {
+    name: "Fish steak",
+    path: fishSteakImg,
+    description: "Fish steak taken from the sea.",
+    price: 40,
   },
 ];
 
