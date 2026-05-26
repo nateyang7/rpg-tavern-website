@@ -1,8 +1,16 @@
 /* src/index.css */
 
+@font-face {
+    font-family: "PixelifySans";
+    src: url("./assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* General */
 * {
     margin: 0;
+    font-family: "PixelifySans", monospace;
 }
 
 main {
