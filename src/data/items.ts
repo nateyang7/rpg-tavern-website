@@ -2,15 +2,17 @@
 
 import type { Item } from "./item.ts";
 
-import saladImg from "../assets/items/salad.jpeg";
+import saladImg from "../assets/items/salad.jpg";
 import soupImg from "../assets/items/soup.jpg";
-import charcuterieImg from "../assets/items/charcuterie.png";
+import charcuterieImg from "../assets/items/charcuterie.jpg";
 
 import steakImg from "../assets/items/steak.jpg";
 
 import cakeImg from "../assets/items/cake.jpg";
 
 import beerImg from "../assets/items/beer.jpg";
+import teaImg from "../assets/items/tea.jpg";
+import coffeeImg from "../assets/items/coffee.jpg";
 
 export const starters: Item[] = [
   {
@@ -57,5 +59,17 @@ export const drinks: Item[] = [
     path: beerImg,
     description: "A refreshing beer.",
     price: 20,
+  },
+  {
+    name: "Tea",
+    path: teaImg,
+    description: "A tea from the east.",
+    price: 10,
+  },
+  {
+    name: "Coffee",
+    path: coffeeImg,
+    description: "A coffee to wake you up.",
+    price: 2,
   },
 ];
