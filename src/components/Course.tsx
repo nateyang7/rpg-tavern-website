@@ -1,0 +1,21 @@
+// src/components/Course.tsx
+
+interface Item {
+  name: string;
+  path: string;
+  description: string;
+  price: number;
+}
+
+export default function Course(item: Item) {
+  return (
+    <div id={item.name}>
+      <img src={item.path} className="item" />
+      <h4>
+        <strong>{item.name}</strong>
+      </h4>
+      <p>{item.description}</p>
+      <p>{item.price}</p>
+    </div>
+  );
+}
