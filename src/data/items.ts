@@ -10,6 +10,8 @@ import steakImg from "../assets/items/steak.jpg";
 
 import cakeImg from "../assets/items/cake.jpg";
 
+import beerImg from "../assets/items/beer.jpg";
+
 export const starters: Item[] = [
   {
     name: "Salad",
@@ -49,4 +51,11 @@ export const desserts: Item[] = [
   },
 ];
 
-export const drinks: Item[] = [];
+export const drinks: Item[] = [
+  {
+    name: "Beer",
+    path: beerImg,
+    description: "A refreshing beer.",
+    price: 20,
+  },
+];
