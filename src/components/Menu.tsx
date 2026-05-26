@@ -14,6 +14,7 @@ export default function Menu() {
           path={item.path}
           description={item.description}
           price={item.price}
+          key={item.name}
         />
       ))}
     </section>

@@ -5,7 +5,7 @@ import type { Item } from "../data/item.ts";
 export default function Course(item: Item) {
   return (
     <div id={item.name}>
-      <img src={item.path} className="item" />
+      <img src={item.path} />
       <h4>
         <strong>{item.name}</strong>
       </h4>
