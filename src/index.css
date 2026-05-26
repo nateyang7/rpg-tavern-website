@@ -29,6 +29,16 @@ img {
     height: 300px;
 }
 
+nav,
+footer {
+    background-color: #252525;
+}
+
+nav a {
+    color: white;
+}
+
+/* Specific */
 #home,
 #menu,
 #about {
