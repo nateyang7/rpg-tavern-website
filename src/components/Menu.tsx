@@ -1,18 +1,29 @@
 // src/components/Menu.tsx
 
+function Courses(props: { name: string; courses: string[] }) {
+  return (
+    <section id={props.name.toLowerCase()}>
+      <h3>{props.name}</h3>
+      <ul>
+        {props.courses.map((course) => (
+          <li key={course}>{course}</li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+const starters = {
+  name: "Starters",
+  courses: ["Soup", "Salad", "Charcuterie"],
+};
+
 export default function Menu() {
   return (
     <section id="menu">
       <h2>Menu</h2>
 
-      <section id="starters">
-        <h3>Starters</h3>
-        <ul>
-          <li>Soup</li>
-          <li>Salad</li>
-          <li>Charcuterie board</li>
-        </ul>
-      </section>
+      <Courses name={starters.name} courses={starters.courses} />
 
       <section id="main-courses">
         <h3>Main Courses</h3>
