@@ -8,15 +8,20 @@ export default function Menu() {
     <section id="menu">
       <h2>Menu</h2>
 
-      {items.map((item) => (
-        <Course
-          name={item.name}
-          path={item.path}
-          description={item.description}
-          price={item.price}
-          key={item.name}
-        />
-      ))}
+      <section id="starters">
+        <h3>Starters</h3>
+        <div className="items-container">
+          {items.map((item) => (
+            <Course
+              name={item.name}
+              path={item.path}
+              description={item.description}
+              price={item.price}
+              key={item.name}
+            />
+          ))}
+        </div>
+      </section>
     </section>
   );
 }
