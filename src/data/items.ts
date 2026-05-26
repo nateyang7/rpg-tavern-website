@@ -11,6 +11,7 @@ import roastChickenImg from "../assets/items/roast_chicken.jpg";
 import fishSteakImg from "../assets/items/fish_steak.jpg";
 
 import cakeImg from "../assets/items/cake.jpg";
+import pieImg from "../assets/items/pie.jpg";
 
 import beerImg from "../assets/items/beer.jpg";
 import teaImg from "../assets/items/tea.jpg";
@@ -64,6 +65,12 @@ export const desserts: Item[] = [
     path: cakeImg,
     description: "A chocolate cake.",
     price: 70,
+  },
+  {
+    name: "Pie",
+    path: pieImg,
+    description: "A delicious pie.",
+    price: 65,
   },
 ];
 
