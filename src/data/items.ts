@@ -8,6 +8,8 @@ import charcuterieImg from "../assets/items/charcuterie.png";
 
 import steakImg from "../assets/items/steak.jpg";
 
+import cakeImg from "../assets/items/cake.jpg";
+
 export const starters: Item[] = [
   {
     name: "Salad",
@@ -37,3 +39,14 @@ export const mainCourses: Item[] = [
     price: 50,
   },
 ];
+
+export const desserts: Item[] = [
+  {
+    name: "Cake",
+    path: cakeImg,
+    description: "A chocolate cake.",
+    price: 70,
+  },
+];
+
+export const drinks: Item[] = [];
