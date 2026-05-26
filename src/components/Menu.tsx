@@ -1,7 +1,7 @@
 // src/components/Menu.tsx
 
 import Course from "./Course.tsx";
-import { starters } from "../data/items.ts";
+import { starters, mainCourses } from "../data/items.ts";
 
 export default function Menu() {
   return (
@@ -21,6 +21,26 @@ export default function Menu() {
             />
           ))}
         </div>
+      </section>
+
+      <section id="main-courses">
+        <h3>Main courses</h3>
+
+        <div className="items-container">
+          {mainCourses.map((mainCourse) => (
+            <Course
+              name={mainCourse.name}
+              path={mainCourse.path}
+              description={mainCourse.description}
+              price={mainCourse.price}
+              key={mainCourse.name}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section id="desserts">
+        <h3>Desserts</h3>
       </section>
     </section>
   );

@@ -6,8 +6,9 @@ import saladImg from "../assets/items/salad.jpeg";
 import soupImg from "../assets/items/soup.jpg";
 import charcuterieImg from "../assets/items/charcuterie.png";
 
+import steakImg from "../assets/items/steak.jpg";
+
 export const starters: Item[] = [
-  // Starters
   {
     name: "Salad",
     path: saladImg,
@@ -25,5 +26,14 @@ export const starters: Item[] = [
     path: charcuterieImg,
     description: "A plate of meat.",
     price: 20,
+  },
+];
+
+export const mainCourses: Item[] = [
+  {
+    name: "Steak with rice",
+    path: steakImg,
+    description: "A large steak served with rice.",
+    price: 50,
   },
 ];
