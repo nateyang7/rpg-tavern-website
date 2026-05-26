@@ -1,7 +1,7 @@
 // src/components/Menu.tsx
 
 import Course from "./Course.tsx";
-import { items } from "../data/items.ts";
+import { starters } from "../data/items.ts";
 
 export default function Menu() {
   return (
@@ -11,13 +11,13 @@ export default function Menu() {
       <section id="starters">
         <h3>Starters</h3>
         <div className="items-container">
-          {items.map((item) => (
+          {starters.map((starter) => (
             <Course
-              name={item.name}
-              path={item.path}
-              description={item.description}
-              price={item.price}
-              key={item.name}
+              name={starter.name}
+              path={starter.path}
+              description={starter.description}
+              price={starter.price}
+              key={starter.name}
             />
           ))}
         </div>
