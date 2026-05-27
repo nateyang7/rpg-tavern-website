@@ -1,23 +1,23 @@
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// Components
 import NavBar from "./components/NavBar.tsx";
-import Home from "./components/Home.tsx";
-import Menu from "./components/Menu.tsx";
-import About from "./components/About.tsx";
 import Footer from "./components/Footer.tsx";
+
+// Pages
+import Home from "./pages/Home.tsx";
+import Menu from "./pages/Menu.tsx";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <NavBar />
-
-      <main>
-        <Home />
-        <Menu />
-        <About />
-      </main>
-
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

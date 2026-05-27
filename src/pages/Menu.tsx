@@ -1,6 +1,6 @@
 // src/components/Menu.tsx
 
-import Course from "./Course.tsx";
+import Course from "../components/Course.tsx";
 import { starters, mainCourses, desserts, drinks } from "../data/items.ts";
 
 export default function Menu() {

@@ -1,18 +1,19 @@
 // src/components/NavBar.tsx
 
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
   const navigationLinks = [
-    { label: "Home", path: "#home" },
-    { label: "Menu", path: "#menu" },
-    { label: "About", path: "#about" },
+    { label: "Home", path: "/" },
+    { label: "Menu", path: "/menu" },
   ];
 
   return (
     <nav>
       {navigationLinks.map((link) => (
-        <a href={link.path} key={link.label}>
+        <Link to={link.path} key={link.label}>
           {link.label}
-        </a>
+        </Link>
       ))}
     </nav>
   );
