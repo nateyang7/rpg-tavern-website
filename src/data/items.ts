@@ -11,7 +11,7 @@ import onigiriImg from "../assets/items/main_courses/onigiri.svg";
 import chickenLegImg from "../assets/items/main_courses/chicken_leg.svg";
 import roastedHamImg from "../assets/items/main_courses/roasted_ham.svg";
 
-import cakeImg from "../assets/items/cake.jpg";
+import cakeImg from "../assets/desserts/cake.svg";
 import pieImg from "../assets/items/pie.jpg";
 import cookieImg from "../assets/items/cookie.jpg";
 
@@ -63,9 +63,9 @@ export const mainCourses: Item[] = [
 
 export const desserts: Item[] = [
   {
-    name: "Cake",
+    name: "Strawberry Cake",
     path: cakeImg,
-    description: "A chocolate cake.",
+    description: "Sweet strawberry cake.",
     price: 70,
   },
   {
