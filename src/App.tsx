@@ -1,3 +1,5 @@
+// src/App.tsx
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Components

@@ -1,4 +1,5 @@
 // src/data/items.ts
+// TODO: Maybe 100 characters for brief description?
 
 import type { Item } from "./item.ts";
 
@@ -7,7 +8,7 @@ import soupImg from "../assets/items/soup.jpg";
 import charcuterieImg from "../assets/items/charcuterie.jpg";
 
 import steakImg from "../assets/items/steak.jpg";
-import roastChickenImg from "../assets/items/roast_chicken.jpg";
+import chickenLegImg from "../assets/items/main_courses/chicken_leg.svg";
 import fishSteakImg from "../assets/items/fish_steak.jpg";
 
 import cakeImg from "../assets/items/cake.jpg";
@@ -47,9 +48,9 @@ export const mainCourses: Item[] = [
     price: 50,
   },
   {
-    name: "Roast chicken",
-    path: roastChickenImg,
-    description: "A roast chicken taken from the farm.",
+    name: "Chicken leg (3 pieces)",
+    path: chickenLegImg,
+    description: "Juicy roasted chicken leg.",
     price: 55,
   },
   {

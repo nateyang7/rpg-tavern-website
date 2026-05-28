@@ -11,7 +11,10 @@ export default function Course(item: Item) {
         <strong>{item.name}</strong>
       </h4>
       <p>{item.description}</p>
-      <p>{item.price} G</p>
+
+      <div className="price-container">
+        <p>{item.price} G</p>
+      </div>
     </div>
   );
 }
