@@ -7,7 +7,7 @@ import saladImg from "../assets/items/salad.jpg";
 import soupImg from "../assets/items/soup.jpg";
 import charcuterieImg from "../assets/items/charcuterie.jpg";
 
-import steakImg from "../assets/items/steak.jpg";
+import onigiriImg from "../assets/items/main_courses/onigiri.svg";
 import chickenLegImg from "../assets/items/main_courses/chicken_leg.svg";
 import roastedHamImg from "../assets/items/main_courses/roasted_ham.svg";
 
@@ -42,9 +42,9 @@ export const starters: Item[] = [
 
 export const mainCourses: Item[] = [
   {
-    name: "Steak with rice",
-    path: steakImg,
-    description: "A large steak served with rice.",
+    name: "Onigiri",
+    path: onigiriImg,
+    description: "Simple rice ball.",
     price: 50,
   },
   {
