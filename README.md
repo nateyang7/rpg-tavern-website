@@ -34,3 +34,6 @@ npm run dev
 ```
 
 ## Licence
+
+## Dev notes
+- Courses image format => SVG (made with aseprite)

@@ -9,7 +9,7 @@ import charcuterieImg from "../assets/items/charcuterie.jpg";
 
 import steakImg from "../assets/items/steak.jpg";
 import chickenLegImg from "../assets/items/main_courses/chicken_leg.svg";
-import fishSteakImg from "../assets/items/fish_steak.jpg";
+import roastedHamImg from "../assets/items/main_courses/roasted_ham.svg";
 
 import cakeImg from "../assets/items/cake.jpg";
 import pieImg from "../assets/items/pie.jpg";
@@ -54,9 +54,9 @@ export const mainCourses: Item[] = [
     price: 55,
   },
   {
-    name: "Fish steak",
-    path: fishSteakImg,
-    description: "Fish steak taken from the sea.",
+    name: "Roasted ham",
+    path: roastedHamImg,
+    description: "Savory roasted ham.",
     price: 40,
   },
 ];
