@@ -17,7 +17,7 @@ import cookieImg from "../assets/desserts/cookie.svg";
 
 import beerImg from "../assets/drinks/beer.svg";
 import teaImg from "../assets/items/tea.jpg";
-import coffeeImg from "../assets/items/coffee.jpg";
+import coffeeImg from "../assets/drinks/coffee.svg";
 
 export const starters: Item[] = [
   {
@@ -99,7 +99,8 @@ export const drinks: Item[] = [
   {
     name: "Coffee",
     path: coffeeImg,
-    description: "A coffee to wake you up.",
+    description:
+      "Brewed drink from roasted beans, rich, aromatic, and energizing.",
     price: 2,
   },
 ];
