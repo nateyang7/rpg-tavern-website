@@ -16,7 +16,7 @@ import pieImg from "../assets/desserts/pie.svg";
 import cookieImg from "../assets/desserts/cookie.svg";
 
 import beerImg from "../assets/drinks/beer.svg";
-import teaImg from "../assets/items/tea.jpg";
+import orangeJuiceImg from "../assets/drinks/orange_juice.svg";
 import coffeeImg from "../assets/drinks/coffee.svg";
 
 export const starters: Item[] = [
@@ -91,9 +91,9 @@ export const drinks: Item[] = [
     price: 20,
   },
   {
-    name: "Tea",
-    path: teaImg,
-    description: "A tea from the east.",
+    name: "Orange Juice",
+    path: orangeJuiceImg,
+    description: "Fresh citrus drink, sweet and tangy.",
     price: 10,
   },
   {
