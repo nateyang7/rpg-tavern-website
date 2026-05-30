@@ -15,7 +15,7 @@ import cakeImg from "../assets/desserts/cake.svg";
 import pieImg from "../assets/desserts/pie.svg";
 import cookieImg from "../assets/desserts/cookie.svg";
 
-import beerImg from "../assets/items/beer.jpg";
+import beerImg from "../assets/drinks/beer.svg";
 import teaImg from "../assets/items/tea.jpg";
 import coffeeImg from "../assets/items/coffee.jpg";
 
@@ -86,7 +86,8 @@ export const drinks: Item[] = [
   {
     name: "Beer",
     path: beerImg,
-    description: "A refreshing beer.",
+    description:
+      "Fermented drink made from grains, with hops for bitternes and aroma.",
     price: 20,
   },
   {
