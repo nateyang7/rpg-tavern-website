@@ -12,7 +12,7 @@ import chickenLegImg from "../assets/items/main_courses/chicken_leg.svg";
 import roastedHamImg from "../assets/items/main_courses/roasted_ham.svg";
 
 import cakeImg from "../assets/desserts/cake.svg";
-import pieImg from "../assets/items/pie.jpg";
+import pieImg from "../assets/desserts/pie.svg";
 import cookieImg from "../assets/items/cookie.jpg";
 
 import beerImg from "../assets/items/beer.jpg";
@@ -71,7 +71,7 @@ export const desserts: Item[] = [
   {
     name: "Pie",
     path: pieImg,
-    description: "A delicious pie.",
+    description: "Sweet baked pastry with a flavorful filling.",
     price: 65,
   },
   {
