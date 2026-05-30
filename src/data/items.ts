@@ -13,7 +13,7 @@ import roastedHamImg from "../assets/items/main_courses/roasted_ham.svg";
 
 import cakeImg from "../assets/desserts/cake.svg";
 import pieImg from "../assets/desserts/pie.svg";
-import cookieImg from "../assets/items/cookie.jpg";
+import cookieImg from "../assets/desserts/cookie.svg";
 
 import beerImg from "../assets/items/beer.jpg";
 import teaImg from "../assets/items/tea.jpg";
@@ -77,7 +77,7 @@ export const desserts: Item[] = [
   {
     name: "Cookie",
     path: cookieImg,
-    description: "Cooked cookie.",
+    description: "Small, sweet baked treat.",
     price: 20,
   },
 ];
