@@ -4,7 +4,7 @@
 import type { Item } from "./item.ts";
 
 import saladImg from "../assets/starters/salad.svg";
-import soupImg from "../assets/items/soup.jpg";
+import soupImg from "../assets/starters/soup.svg";
 import cheeseImg from "../assets/starters/cheese.svg";
 
 import onigiriImg from "../assets/main_courses/onigiri.svg";
@@ -29,7 +29,7 @@ export const starters: Item[] = [
   {
     name: "Soup",
     path: soupImg,
-    description: "A soup.",
+    description: "Warm, comforting soup made from blended vegetables.",
     price: 5,
   },
   {
