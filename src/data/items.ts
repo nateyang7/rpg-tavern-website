@@ -5,7 +5,7 @@ import type { Item } from "./item.ts";
 
 import saladImg from "../assets/starters/salad.svg";
 import soupImg from "../assets/items/soup.jpg";
-import charcuterieImg from "../assets/items/charcuterie.jpg";
+import cheeseImg from "../assets/starters/cheese.svg";
 
 import onigiriImg from "../assets/main_courses/onigiri.svg";
 import chickenLegImg from "../assets/main_courses/chicken_leg.svg";
@@ -33,9 +33,9 @@ export const starters: Item[] = [
     price: 5,
   },
   {
-    name: "Charcuterie",
-    path: charcuterieImg,
-    description: "A plate of meat.",
+    name: "Cheese",
+    path: cheeseImg,
+    description: "Assorted cheeses served with fresh bread.",
     price: 20,
   },
 ];
