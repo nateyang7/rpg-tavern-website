@@ -3,13 +3,13 @@
 
 import type { Item } from "./item.ts";
 
-import saladImg from "../assets/items/salad.jpg";
+import saladImg from "../assets/starters/salad.svg";
 import soupImg from "../assets/items/soup.jpg";
 import charcuterieImg from "../assets/items/charcuterie.jpg";
 
-import onigiriImg from "../assets/items/main_courses/onigiri.svg";
-import chickenLegImg from "../assets/items/main_courses/chicken_leg.svg";
-import roastedHamImg from "../assets/items/main_courses/roasted_ham.svg";
+import onigiriImg from "../assets/main_courses/onigiri.svg";
+import chickenLegImg from "../assets/main_courses/chicken_leg.svg";
+import roastedHamImg from "../assets/main_courses/roasted_ham.svg";
 
 import cakeImg from "../assets/desserts/cake.svg";
 import pieImg from "../assets/desserts/pie.svg";
@@ -23,7 +23,7 @@ export const starters: Item[] = [
   {
     name: "Salad",
     path: saladImg,
-    description: "A salad.",
+    description: "Fresh mix of greens, vegetables, and light dressing.",
     price: 10,
   },
   {
