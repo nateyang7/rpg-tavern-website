@@ -9,7 +9,7 @@ export default function NavBar() {
   ];
 
   return (
-    <nav>
+    <nav id="navbar">
       {navigationLinks.map((link) => (
         <Link to={link.path} key={link.label}>
           {link.label}

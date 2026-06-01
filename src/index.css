@@ -24,6 +24,21 @@ body {
     flex-direction: column;
 }
 
+/* === Components === */
+#navbar,
+#main-footer {
+    height: 3%;
+}
+
+/* === Pages === */
+.page {
+    height: 94%;
+}
+
+section p {
+    color: white;
+}
+
 #root {
     flex: 1;
 }
@@ -48,8 +63,8 @@ h4 {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
 
 nav,

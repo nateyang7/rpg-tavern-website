@@ -1,11 +1,16 @@
 // src/components/Menu.tsx
 
+import backgroundImg from "../assets/tavern.png";
 import Course from "../components/Course.tsx";
 import { starters, mainCourses, desserts, drinks } from "../data/items.ts";
 
 export default function Menu() {
   return (
-    <section id="menu">
+    <section
+      id="menu"
+      className="page"
+      style={{ backgroundImage: `url(${backgroundImg})` }}
+    >
       <h2>Menu</h2>
 
       <section id="starters">
