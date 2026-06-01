@@ -1,7 +1,9 @@
 # RPG Tavern
 
 ## Description
-**rpg-tavern-website** is a website representing a fictional restaurant. This project is purely educational and is used to practice web development skills.
+**rpg-tavern-website** is a website representing a fictional restaurant. 
+This project is purely educational and is used to practice web development skills 
+while also serving as a location for a D&D session.
 
 > 🚧 This project is currently a work in progress.
 
@@ -32,7 +34,14 @@ Run:
 npm run dev
 ```
 
+## Technologies
+- HTML
+- CSS
+- TypeScript (React, Vite)
+- Aseprite
+
 ## Licence
+This project is licenced under the MIT Licence - see the LICENCE file for details.
 
 ## Dev notes
 - Courses image format => SVG (remade with aseprite)
