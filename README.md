@@ -13,13 +13,12 @@
 
 ## Features
 ### General
-- [ ] Display dishes (description, ingredients and price)
-- [ ] Pixel Art theme
+- [X] Display dishes (description, ingredients and price)
+- [X] Pixel Art theme
 
 ### Sections
-- [ ] Home
-- [ ] Menu
-- [ ] About
+- [X] Home
+- [X] Menu
 
 ## Installation
 In the terminal:
@@ -36,4 +35,4 @@ npm run dev
 ## Licence
 
 ## Dev notes
-- Courses image format => SVG (made with aseprite)
+- Courses image format => SVG (remade with aseprite)
