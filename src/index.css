@@ -13,8 +13,23 @@
     font-family: "PixelifySans", monospace;
 }
 
-main {
-    background-image: url("./assets/tavern.jpg");
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    flex: 1;
+}
+
+#menu {
+    background-image: url("./assets/tavern.png"); /* Source: https://wallhaven.cc/w/rrz51q */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
