@@ -27,14 +27,13 @@ body {
 /* === Components === */
 #navbar,
 #main-footer {
-    height: 3%;
-    gap: 2em;
-}
-
-#navbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 3%;
+}
+
+#navbar {
     gap: 0.5em;
 }
 
@@ -92,6 +91,18 @@ nav a {
     border: black 1px solid;
 }
 
+/* Homepage */
+#home {
+    flex: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h2 {
+    text-align: center;
+}
+
+/* Menu */
 .items-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
