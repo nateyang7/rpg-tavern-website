@@ -28,6 +28,14 @@ body {
 #navbar,
 #main-footer {
     height: 3%;
+    gap: 2em;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
 }
 
 /* === Pages === */
