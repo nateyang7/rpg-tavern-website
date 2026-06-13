@@ -1,5 +1,9 @@
 /* src/index.css */
 
+:root {
+    --background-color: #252525;
+}
+
 @font-face {
     font-family: "PixelifySans";
     src: url("./assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
@@ -57,16 +61,12 @@ section p {
     background-repeat: no-repeat;
 }
 
-h2 {
-    color: red;
-}
-
-h3 {
-    color: green;
-}
-
-h4 {
-    color: blue;
+h2,
+h3,
+h4,
+nav a,
+footer {
+    color: white;
 }
 
 img {
@@ -76,12 +76,7 @@ img {
 
 nav,
 footer {
-    background-color: #252525;
-    color: white;
-}
-
-nav a {
-    color: white;
+    background-color: var(--background-color);
 }
 
 /* Specific */
